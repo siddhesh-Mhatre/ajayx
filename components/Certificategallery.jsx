@@ -11,7 +11,7 @@ const Certificategallery = () => {
         >
           <a
             href="https://www.coursera.org/account/accomplishments/verify/FPXKTZTF5Y8Z"
-            target={"_blank"}
+            target={"_blank"} rel="noreferrer"
           >
             <img
                className="w-full"
@@ -27,7 +27,7 @@ const Certificategallery = () => {
         >
           <a
             href="https://drive.google.com/file/d/1R1FHVhf4dB645ljfekyJ4LQUYwc6Aebf/view"
-            target={"_blank"}
+            target={"_blank"} rel="noreferrer"
           >
             <img
               className="w-full"

@@ -12,7 +12,7 @@ import {
 const About = () => {
   return (
     <section className="py-28 container mx-auto">
-     <h3 className="font-bold text-5xl text-center pb-16">Here's what I do</h3>
+     <h3 className="font-bold text-5xl text-center pb-16">Here&apos;s what I do</h3>
       <div className="flex flex-wrap w-11/12  mx-auto justify-center align-middle">
         <div className="lg:w-1/2 p-4">
         <svg  viewBox="0 0 774 611" fill="none" xmlns="http://www.w3.org/2000/svg">

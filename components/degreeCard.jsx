@@ -17,13 +17,14 @@ const DegreeCard = () => {
           </div>
           <div className="p-7">
             <h1>
-              ⚡ I'm currently pursuing my bachelors in  Computer science.
+              ⚡ I&apos;m currently pursuing my bachelors in  Computer science.
             </h1>
             <div className="text-end">
             <a
               href="http://sid.com"
               target="_blank"
               className="py-2 px-7 bg-black text-white"
+              rel="noreferrer"
             >
               Visit Website
             </a>
