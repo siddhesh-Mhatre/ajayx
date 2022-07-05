@@ -12,6 +12,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "framer-motion": "^6.3.16",
     "graphql": "^16.5.0",
     "graphql-request": "^4.3.0",

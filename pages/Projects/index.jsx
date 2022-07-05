@@ -41,7 +41,8 @@ const index = ({ projects }) => {
 
   return (
     <section className="container mx-auto">
-      <div className="container  flex flex-wrap justify-center  mx-auto">
+    projects
+      {/* <div className="container  flex flex-wrap justify-center  mx-auto">
         <div className="w-full lg:w-1/2 px-2 self-center">
           <h3 className="font-bold text-5xl text-center pb-16">
             Here's what I do
@@ -66,10 +67,10 @@ const index = ({ projects }) => {
           style={{ justifyItems: "center" }}
         >
           {projects.map((project) => (
-            <Card project={project} />
+            <Card key={project.title} project={project} />
           ))}
         </div>
-        {/* <AnimatePresence>
+        <AnimatePresence>
           {show && (
             <motion.div
               exit={{ opacity: 0 }}
@@ -107,8 +108,8 @@ const index = ({ projects }) => {
               </div>
             </motion.div>
           )}
-        </AnimatePresence> */}
-      </div>
+        </AnimatePresence>
+      </div> */}
     </section>
   );
 };
