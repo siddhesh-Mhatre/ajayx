@@ -43,7 +43,7 @@ export async function getStaticProps() {
  
 
  
-const index = ({projects}) => {
+const Index = ({projects}) => {
 const {show,setShow,info,Popupvariants} = useContext(HelperContext);
  
   return (
@@ -113,4 +113,4 @@ const {show,setShow,info,Popupvariants} = useContext(HelperContext);
   );
 };
 
-export default index;
+export default Index;
