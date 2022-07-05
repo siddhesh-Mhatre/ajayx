@@ -51,7 +51,7 @@ const {show,setShow,info,Popupvariants} = useContext(HelperContext);
       <div className="container  flex flex-wrap justify-center  mx-auto">
         <div className="w-full lg:w-1/2 px-2 self-center">
           <h3 className="font-bold text-5xl text-center pb-16">
-            Here's what I do
+            Here&apos;s what I do
           </h3>
           <p className="text-gray-500 text-xl text-center pb-3">
             My projects make use of a vast variety of latest technology tools.
@@ -70,8 +70,8 @@ const {show,setShow,info,Popupvariants} = useContext(HelperContext);
         <h3 className="font-bold text-5xl text-center pb-16">Projects</h3>
         <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 " style={{justifyItems:"center"}}>
 {
-  projects.map((project)=>(<Card project={project}/>))
-}
+  projects.map((project,ind)=>(<Card key={ind}  project={project}/>))
+} 
 
  
         </div>
