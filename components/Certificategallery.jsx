@@ -23,20 +23,21 @@ const Certificategallery = () => {
         </motion.div>
         <motion.div
           whileHover={{ y: -5 }}
-          className="flex justify-center shadow-lg"
+          className="flex justify-center   shadow-lg "
         >
           <a
-            href="https://drive.google.com/file/d/1R1FHVhf4dB645ljfekyJ4LQUYwc6Aebf/view"
+            href="https://www.coursera.org/account/accomplishments/verify/FPXKTZTF5Y8Z"
             target={"_blank"} rel="noreferrer"
           >
             <img
-              className="w-full"
+               className="w-full"
               src="/images/c2.png"
               alt=""
               srcSet=""
             />
           </a>
         </motion.div>
+     
       </div>
     </div>
   );
