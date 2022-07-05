@@ -6,8 +6,8 @@ import Certifacte from "../../components/SvgComponents/Certifacte";
 const index = () => {
   return (
     <section className="container mx-auto">
-      <div class="container  flex flex-wrap   mx-auto justify-center">
-        <div class="text-center w-full lg:w-1/2 px-2 self-center">
+      <div className="container  flex flex-wrap   mx-auto justify-center">
+        <div className="text-center w-full lg:w-1/2 px-2 self-center">
           <h3 className="font-bold text-5xl text-center pb-4">Education</h3>
           <p className="text-4xl pb-4 font-semibold">
             Basic Qualification and Certifications
@@ -18,7 +18,7 @@ const index = () => {
           </p>
         </div>
 
-        <div class=" lg:w-1/4 px-2">
+        <div className=" lg:w-1/4 px-2">
           <Certifacte />
         </div>
       </div>

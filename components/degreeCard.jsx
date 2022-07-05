@@ -1,10 +1,11 @@
 import {motion} from "framer-motion" 
+ 
 const DegreeCard = () => {
   return (
     <>
       <motion.div    className="flex flex-wrap justify-evenly items-center   w-11/12 h-full mx-auto pt-10">
         <div className="lg:w-1/6    ">
-          <img src="images/vartak.png" className="w-full" alt="" srcset="" />
+          <img className="w-full" src="/images/vartak.png"   alt="" srcSet="" />
         </div>
         <div className="lg:w-2/3 rounded-md border-gray-800 border">
           <div className=" flex  justify-evenly items-center pt-9 pb-5 border-b-violet-900 border ">

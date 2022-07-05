@@ -8,7 +8,7 @@ const LadyCharcterSvg = () => {
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g id="undraw_projections_re_ulc6 1" clip-path="url(#clip0_8_4)">
+    <g id="undraw_projections_re_ulc6 1" clipPath="url(#clip0_8_4)">
       <g id="Group">
         <path
           id="Vector"

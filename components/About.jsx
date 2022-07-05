@@ -13,10 +13,10 @@ const About = () => {
   return (
     <section className="py-28 container mx-auto">
      <h3 className="font-bold text-5xl text-center pb-16">Here's what I do</h3>
-      <div class="flex flex-wrap w-11/12  mx-auto justify-center align-middle">
-        <div class="lg:w-1/2 p-4">
+      <div className="flex flex-wrap w-11/12  mx-auto justify-center align-middle">
+        <div className="lg:w-1/2 p-4">
         <svg  viewBox="0 0 774 611" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_7_3)">
+<g clipPath="url(#clip0_7_3)">
 <path d="M773.114 12.711H309.473V232.717H773.114V12.711Z" fill="#E6E6E6"/>
 <path d="M759.857 31.5769H322.731V215.134H759.857V31.5769Z" fill="white"/>
 <path d="M772.916 0H309.276V19.6968H772.916V0Z" fill="#6C63FF"/>
@@ -61,7 +61,7 @@ const About = () => {
          </svg>
 
         </div>
-        <div class="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/2">
          <div className="flex-col">
             <h2 className="font-semibold text-3xl text-center pb-5">Full Stack Development</h2>
             <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 pt-5">

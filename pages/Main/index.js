@@ -11,8 +11,8 @@ import Typewriter from "typewriter-effect";
 const index = () => {
   return (
     <section className=" py-28 px-10 lg:px-20 bg-violet-100">
-      <div class= "container  flex flex-wrap   mx-auto">
-        <div class="w-full lg:w-1/2 px-2 self-center">
+      <div className= "container  flex flex-wrap   mx-auto">
+        <div className="w-full lg:w-1/2 px-2 self-center">
           <div className="flex-col">
             <p className="text-4xl pb-4 font-semibold">Hello! I am</p>
             <h5 className="text-6xl pb-3 mb-7 mt-5"> 
@@ -32,7 +32,7 @@ const index = () => {
               />
               </h5>
             <p className="text-gray-500 text-xl pb-3">
-              I'm <span className="text-violet-800">Ajay</span> . Full Stack
+              I&apos;m <span className="text-violet-800">Ajay</span> . Full Stack
               Developer, Open Source Enthusiast 🔥. Always learning.
             </p>
             <div className="flex  w-10/12  md:w-1/4 lg:w-1/3 justify-between mt-4">
@@ -48,14 +48,14 @@ const index = () => {
           </div>
         </div>
 
-        <div class= "lg:w-1/2 px-2 ">
+        <div className= "lg:w-1/2 px-2 ">
           <svg
             className="animate-bounce"
             viewBox="0 0 879 483"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g id="und 1" clip-path="url(#clip0_5_26)">
+            <g id="und 1" clipPath="url(#clip0_5_26)">
               <motion.path
               animate={{ rotate: [-20,5,-20] }}
               transition={{  ease: "linear", duration: 3, repeat: Infinity }}

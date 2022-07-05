@@ -1,17 +1,17 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {motion} from "framer-motion"
+ 
 import {
   faGithub,
   faFacebook,
   faLinkedin,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-
+ 
 const index = () => {
   return (
     <section className=" py-28 px-10 lg:px-20  ">
-    <div class= "container  flex flex-wrap  flex-row-reverse mx-auto justify-around">
-      <div class="w-full lg:w-1/2 px-2 self-center">
+    <div className= "container  flex flex-wrap  flex-row-reverse mx-auto justify-around">
+      <div className="w-full lg:w-1/2 px-2 self-center">
         <div className="flex-col">
           <p className="text-4xl pb-4 font-semibold">Contact me</p>
           <p className="text-gray-500 text-xl pb-3">
@@ -30,8 +30,8 @@ const index = () => {
         </div>
       </div>
 
-      <div class= "lg:w-1/4 px-2 ">
-     <img src="images/hero.png" className="w-full rounded-full" alt="" srcset="" />
+      <div className= "lg:w-1/4 px-2 ">
+     <img   src="/images/hero.png" className="w-full rounded-full" alt="" srcSet="" />
       </div>
     </div>
   </section>

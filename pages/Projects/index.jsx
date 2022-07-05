@@ -4,7 +4,7 @@ import { GraphQLClient, gql } from "graphql-request";
 import { HelperContext } from "../../helper/Helper";
 import { motion,AnimatePresence } from "framer-motion";
 import LadyCharcterSvg from "../../components/SvgComponents/LadyCharcterSvg";
-
+ 
 
 //---------------------------   api call
 const graphcms = new GraphQLClient(
@@ -43,13 +43,13 @@ export async function getStaticProps() {
  
 
  
-const my = ({projects}) => {
+const index = ({projects}) => {
 const {show,setShow,info,Popupvariants} = useContext(HelperContext);
  
   return (
     <section className="container mx-auto">
-      <div class="container  flex flex-wrap justify-center  mx-auto">
-        <div class="w-full lg:w-1/2 px-2 self-center">
+      <div className="container  flex flex-wrap justify-center  mx-auto">
+        <div className="w-full lg:w-1/2 px-2 self-center">
           <h3 className="font-bold text-5xl text-center pb-16">
             Here's what I do
           </h3>
@@ -61,7 +61,7 @@ const {show,setShow,info,Popupvariants} = useContext(HelperContext);
           </p>
         </div>
 
-        <div class="lg:w-1/3 px-2 ">
+        <div className="lg:w-1/3 px-2 ">
   <LadyCharcterSvg/>
         </div>
       </div>
@@ -80,23 +80,23 @@ const {show,setShow,info,Popupvariants} = useContext(HelperContext);
         show  &&   <motion.div   exit={{opacity:0}} variants={Popupvariants}  animate={show ? "visible" : "hidden"} className=" flex justify-center items-center w-full fixed backdrop-brightness-50 backdrop-blur-sm pt-16" style={{top:0,left:"0%",height:"100vh"}} 
         onClick={()=>setShow(!show)}
          >
-        <div  class="max-w-sm rounded overflow-hidden shadow-lg bg-white max-h-screen h-fit" >
-        <img
-          class="w-full"
+        <div  className="max-w-sm rounded overflow-hidden shadow-lg bg-white max-h-screen h-fit" >
+        <img    
+          className="w-full"
           src={info.photo.url}
           alt="Sunset in the mountains"
         />
-        <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">{info.title}</div>
-          <p class="text-gray-700 text-base" dangerouslySetInnerHTML={{ __html:info.description.html}}/>
+        <div className="px-6 py-4">
+          <div className="font-bold text-xl mb-2">{info.title}</div>
+          <p className="text-gray-700 text-base" dangerouslySetInnerHTML={{ __html:info.description.html}}/>
       
  
         </div>
-        <div class="px-6 pt-4 pb-2">
+        <div className="px-6 pt-4 pb-2">
       
         {
           info.technology.tech.map((cval)=><>
-          <span key={cval} class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+          <span key={cval} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
             #{cval}
           </span>
           </>)
@@ -113,4 +113,4 @@ const {show,setShow,info,Popupvariants} = useContext(HelperContext);
   );
 };
 
-export default my;
+export default index;
