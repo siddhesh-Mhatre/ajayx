@@ -31,20 +31,20 @@ const Navbar = () => {
           </button>
 
           <div
-            className={`fixed p-12 pt-4 bg-cyan-50 top-0 transition-transform h-screen  w-96 ${
+            className={`fixed p-12 pt-4 bg-violet-700 top-0 transition-transform h-screen  w-96 ${
               toggleMenu ? "-translate-x-60" : "translate-x-96"
             }`}
           >
             <div className=" border-b-2 p-2">
               <button
-                className=" text-4xl hover:rotate-90 transition text-slate-900 font-bold py-2 px-4 rounded"
+                className=" text-4xl hover:rotate-90 transition text-white font-bold py-2 px-4 rounded"
                 onClick={() => setToggleMenu(!toggleMenu)}
               >
                 ✖
               </button>
             </div>
 
-            <ul className="flex flex-col gap-y-5 pt-4">
+            <ul className="flex flex-col gap-y-5 pt-4 text-white">
               <Link href="/">
                 <li className="text-4xl hover:-translate-y-1 transition cursor-pointer" onClick={() => setToggleMenu(!toggleMenu)} >
                   Home

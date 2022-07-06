@@ -51,7 +51,7 @@ const {show,setShow,info,Popupvariants} = useContext(HelperContext);
       <div className="container  flex flex-wrap justify-center  mx-auto">
         <div className="w-full lg:w-1/2 px-2 self-center">
           <h3 className="font-bold text-5xl text-center pb-16">
-            Here&apos;s what I do
+          Projects
           </h3>
           <p className="text-gray-500 text-xl text-center pb-3">
             My projects make use of a vast variety of latest technology tools.
@@ -67,8 +67,8 @@ const {show,setShow,info,Popupvariants} = useContext(HelperContext);
       </div>
 
       <div className="mt-6">
-        <h3 className="font-bold text-5xl text-center pb-16">Projects</h3>
-        <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 " style={{justifyItems:"center"}}>
+       
+        <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  pt-8" style={{justifyItems:"center"}}>
 {
   projects.map((project,ind)=>(<Card key={ind}  project={project}/>))
 } 
@@ -77,22 +77,22 @@ const {show,setShow,info,Popupvariants} = useContext(HelperContext);
         </div>
 <AnimatePresence>
         {
-        show  &&   <motion.div   exit={{opacity:0}} variants={Popupvariants}  animate={show ? "visible" : "hidden"} className=" flex justify-center items-center w-full fixed backdrop-brightness-50 backdrop-blur-sm pt-16" style={{top:0,left:"0%",height:"100vh"}} 
+        show  &&   <motion.div   exit={{opacity:0}} variants={Popupvariants}  animate={show ? "visible" : "hidden"} className=" flex justify-center items-center w-full fixed backdrop-brightness-50 backdrop-blur-sm pt-16" style={{top:"50px",left:"0%",height:"100vh"}} 
         onClick={()=>setShow(!show)}
          >
-        <div  className="max-w-sm rounded overflow-hidden shadow-lg bg-white max-h-screen h-fit" >
+        <div  className="  lg:flex justify-around items-center w-11/12  rounded overflow-hidden shadow-lg bg-white max-h-screen lg:h-2/3" >
         <img    
-          className="w-full"
+          className="w-full lg:w-1/3"
           src={info.photo.url}
           alt="Sunset in the mountains"
         />
-        <div className="px-6 py-4">
+        <div className="px-6 py-4 lg:w-1/3">
           <div className="font-bold text-xl mb-2">{info.title}</div>
           <p className="text-gray-700 text-base" dangerouslySetInnerHTML={{ __html:info.description.html}}/>
       
  
         </div>
-        <div className="px-6 pt-4 pb-2">
+        <div className="px-6 pt-4 pb-2 lg:w-1/12">
       
         {
           info.technology.tech.map((cval)=><>
