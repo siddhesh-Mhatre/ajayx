@@ -40,7 +40,7 @@ const index = () => {
               <a href="https://github.com/Ajay4486"   target="_blank" rel="noreferrer"><FontAwesomeIcon  icon={faGithub} style={{ fontSize: 35}} /></a>  
               <a href="https://www.hackerrank.com/ajshitkar282"  target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faHackerrank} style={{ fontSize: 35,color:"#e02e6e" }} /></a>  
               <a href="https://www.linkedin.com/in/ajay-shitkar-699784225/"  target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} style={{ fontSize: 35 , color:"#0a66c2"}} /></a>
-              <a href=""  target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} style={{ fontSize: 35,color:"#e02e6e" }} /></a>
+              <a href="https://www.instagram.com/ajay___shitkar/"  target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} style={{ fontSize: 35,color:"#e02e6e" }} /></a>
      
             </div>
             <div className="mt-7">
